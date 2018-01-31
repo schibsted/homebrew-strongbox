@@ -1,9 +1,9 @@
 class Strongbox < Formula
   desc "Strongbox"
   homepage "https://github.com/schibsted/strongbox"
-  url "https://dl.bintray.com/strongbox/strongbox-generic/strongbox-cli-0.2.16.tar.gz"
-  version "0.2.16"
-  sha256 "7714871138809be253f76d19e5e68b2f6536c5c70c97e10eb85725f167e847a2"
+  url "https://dl.bintray.com/strongbox/strongbox-generic/strongbox-cli-0.2.17.tar.gz"
+  version "0.2.17"
+  sha256 "8fc603cd8671ca368195c5aea2fdd8ee2f52248502efff7a3c5092b3b02683bd"
 
   def install
     bin.install Dir["bin/*"]
